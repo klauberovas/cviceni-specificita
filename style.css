@@ -1,0 +1,33 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+/*
+KARTIČCE ZMĚŇTE BARVU POZADÍ A PADDING:
+background-color: #fff0ee;
+padding: 1rem 1.5rem;
+
+NADPIS UDĚLEJTE KAPITÁLKAMI A PŘIDEJTE MARGIN
+text-transform: uppercase;
+margin-bottom: 1rem;
+
+TLAČÍTKU ZMĚŇTE BARVU POZADÍ A BORDERU
+background-color: #b10849;
+border: #b10849;
+*/
+div.card {
+  background-color: #fff0ee;
+  padding: 1rem 1.5rem;
+}
+
+.card .card-body .card-title {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+button.btn.btn-primary {
+  background-color: #b10849;
+  border: #b10849;
+}
